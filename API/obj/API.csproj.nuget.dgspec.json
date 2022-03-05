@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\social-media-app\\API\\API.csproj": {}
+    "c:\\social-media-app\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\social-media-app\\API\\API.csproj": {
+    "c:\\social-media-app\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\social-media-app\\API\\API.csproj",
+        "projectUniqueName": "c:\\social-media-app\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\social-media-app\\API\\API.csproj",
+        "projectPath": "c:\\social-media-app\\API\\API.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\social-media-app\\API\\obj\\",
+        "outputPath": "c:\\social-media-app\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,6 +38,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
